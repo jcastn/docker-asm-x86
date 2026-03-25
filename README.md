@@ -27,9 +27,9 @@ Démarrer le cotneneur à partir de l'image du conteneur se trouvant sur [Docker
 
 ---
 ## Makefile 
-Dans le conteneur grâce au Makefile, la commande `make` permet d'assembler, lier et exécuter un fichier .asm : 
+Dans le conteneur, la commande `make` permet d'assembler, lier et exécuter un fichier .asm : 
  - S'il s'appelle "a64.asm" : `make`
  - S'il a un autre nom : `make SRC=nom_fichier` (sans marquer l'extension.asm)
 (le fichier objet intermédiaire (`.o`) est automatiquement supprimé)
 
-L'éxecutable peut ensuite être exécuté avec : `./nom_fichier`
+L'éxecutable obtenu peut ensuite être exécuté avec : `./nom_fichier`
