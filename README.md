@@ -1,10 +1,10 @@
 # docker-asm-x86
-Un **conteneur Docker sous Ubuntu AMD-64** pour compiler et exécuter du code en langage d'assembleur x86 sur un Mac (avec puce Apple Silicon ARM-64). Il contient aussi plusieurs outils ainsi qu'un Makefile pour automatiser le processus de compilation. 
+Un **conteneur Docker sous Ubuntu AMD-64** pour compiler et exécuter du code en langage d'assembleur x86 sur un Mac (avec puce Apple Silicon ARM-64). 
 
 Il contient plusieurs outils utiles à la programmation en assembleur : 
-- `nasm` : Le logiciel pour assembler mon code source (en langage d'assembleur) en un fichier objet.
-- `binutils`: Le logiciel contenant l'outil ld qui servira à la liaison du fichier objet en un fichier exécutable.
-- `make` : Le logiciel qui me servira à automatiser le processus de compilation.
+- `nasm` : Le logiciel pour assembler le code source (en langage d'assembleur) en un fichier objet.
+- `binutils`: Le logiciel contenant l'outil ld qui servira à lier le fichier objet en un fichier exécutable.
+- `make` : Le logiciel qui automatise le processus de compilation.
 - `nano` / `vim` / `gdb` / `gcc` / `strace` : Différents outils qui seront utiles pour éditer et débugger des fichiers.
 
 🐳 L'image du conteneur est aussi hebergée sur [DockerHub](https://hub.docker.com/r/julienmorue/asm-lab)
